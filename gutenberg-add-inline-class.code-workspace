@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.renderWhitespace": "all",
+		"css.validate": false,
+		"scss.validate": false,
+		"[html]": {
+			"editor.formatOnSave": false
+		},
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
+	}
+}

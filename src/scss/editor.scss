@@ -1,0 +1,51 @@
+/**
+ * The following styles get applied on editor.
+ */
+
+.components-popover__content .tm-block-editor-class-control {
+	min-width: auto;
+	width: 90vw;
+	max-width: 360px;
+
+	&__input-wrapper {
+		position: relative;
+	}
+
+	&__label {
+		display: block;
+    margin: 8px 16px;
+	}
+
+	&__input {
+		flex-grow: 1;
+    position: relative;
+		padding: 1px;
+
+		label {
+			font-size: 13px;
+			display: block;
+    	margin: 8px 16px;
+		}
+
+		input {
+			box-shadow: 0 0 0 transparent;
+			transition: box-shadow .1s linear;
+			font-size: 16px;
+			line-height: normal;
+			width: calc(100% - 32px);
+			display: block;
+			padding: 11px 44px 11px 16px;
+			margin: 16px;
+			margin-top: 0;
+			position: relative;
+			border: 1px solid #ddd;
+			border-radius: 2px;
+		}
+	}
+
+	&__actions {
+		position: absolute;
+    top: 38px;
+    right: 19px;
+	}
+}

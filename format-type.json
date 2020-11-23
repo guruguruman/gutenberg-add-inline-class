@@ -1,0 +1,10 @@
+{
+	"type": "guruguruman/gutenberg-add-inline-class",
+	"title": "Add Class",
+	"tagName": "span",
+	"className": "gutenberg-add-inline-class",
+	"attributes": {
+		"data": "data-class",
+		"class": "class"
+	}
+}

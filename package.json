@@ -1,0 +1,25 @@
+{
+	"name": "gutenberg-add-inline-class",
+	"version": "0.1.0",
+	"description": "Add class attribute into inline element within richtext on gutenberg editor.",
+	"author": "Tomoyuki Kato",
+	"license": "GPL-3.0",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format:js": "wp-scripts format-js",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start": "wp-scripts start",
+		"packages-update": "wp-scripts packages-update",
+		"wp-env": "wp-env"
+	},
+	"devDependencies": {
+		"@wordpress/env": "^2.0.1",
+		"@wordpress/icons": "^2.7.0",
+		"@wordpress/scripts": "^12.2.1",
+		"archiver": "^5.0.2",
+		"axios": "^0.20.0",
+		"react-select": "^3.1.0"
+	}
+}

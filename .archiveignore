@@ -1,0 +1,17 @@
+bin\/.*
+dist\/.*
+node_modules\/.*
+\.archiveignore
+\.editorconfig
+\.git/.*
+\.gitignore
+\.nvmrc
+\.vscode/.*
+\.wp-env\.json
+gutenberg-add-inline-class\.code-workspace
+Makefile
+package\.json
+postcss\.config\.js
+prettier\.config\.js
+README\.md
+yarn\.lock
