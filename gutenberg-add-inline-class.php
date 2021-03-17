@@ -23,7 +23,7 @@ function gutenberg_add_inline_class_init() {
 	$js_path     = 'build/index.js';
 	wp_enqueue_script('gutenberg-add-inline-class-editor-script', plugins_url( $js_path, __FILE__ ), $script_asset['dependencies'], $script_asset['version']);
 }
-add_action( 'init', 'gutenberg_add_inline_class_init' );
+add_action( 'admin_enqueue_scripts', 'gutenberg_add_inline_class_init' );
 
 function gutenberg_add_inline_class_style() {
 	$css_path = "/build/index.css";
